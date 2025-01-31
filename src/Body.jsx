@@ -431,7 +431,7 @@ const Body = () => {
                   sx={{
                     padding: "10px 15px",
                     color: "#BFBFBF",
-                    zIndex: 1,
+                    zIndex: 2,
                     "&:hover": {
                       color: "white",
                       transform: "scale(1.1)",
