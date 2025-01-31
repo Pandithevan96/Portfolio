@@ -456,7 +456,7 @@ const Body = () => {
         {/* Section 1 */}
 
         {/* Section 2 */}
-        <div ref={addToRefs} className="section section-2 lg:mt-5">
+        <div ref={addToRefs} className="section section-2 lg:mt-5 " id="home">
           <div className="w-[320px] lg:w-full  mt-5 md:w-[500px] mx-auto lg:px-20 p-5 bg-transparent shadow-lg">
             <div className="lg:flex flex-row-reverse justify-center gap-40 items-center bg-transparent">
               <div className=" lg:w-80 lg:h-80 mt-5  mx-auto relative  lg:mx-0 mb-3">
@@ -801,6 +801,7 @@ const Body = () => {
           <SkillProgress />
         </div>
         <div
+        id="projects"
           ref={addToRefs}
           className="w-[300px] md:w-[750px] lg:w-[950px] mt-5  mx-auto py-5 bg-transparent shadow-lg section section-1"
         >
